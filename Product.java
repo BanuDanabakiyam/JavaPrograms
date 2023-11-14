@@ -1,4 +1,4 @@
-//Java program that takes two numbers and display the product of two numbers. 
+//1.Java program that takes two numbers and display the product of two numbers. 
 import java.util.Scanner;
 class Product {
 
