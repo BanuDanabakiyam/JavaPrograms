@@ -3,10 +3,10 @@ import java.util.Scanner;
 class LengthOfString{
 public static int findLength(String dat){
 // '\0' ASCII VALUE 0 ITS DENOTE STRING NULL 
-String d1 = dat + '\0';
+ dat = dat + '\0';
 int count = 0;
 // USING FOR LOOP TO CHECK CHARACTER CONTAINS NULL
-for(int i = 0 ; d1.charAt(i) != '\0' ; i++){
+for(int i = 0 ; dat.charAt(i) != '\0' ; i++){
 count++;
 }
 return count;
